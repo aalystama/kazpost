@@ -55,12 +55,9 @@
             </div>
         </nav>
     </div>
-    <div class="account_content-client" align="center">
-        <h3>Вход в личный кабинет</h3>
+    <div class="account_content" align="center">
+        <h3>Регистрация</h3>
         <div class="input-group my-3">
-            <div class="input-group-prepend">
-                <span class="input-group-text" id="basic-addon1">@</span>
-            </div>
             <input type="text" class="form-control" placeholder="Email" aria-label="Email"
                 aria-describedby="basic-addon1">
         </div>
@@ -68,43 +65,18 @@
             <input type="text" class="form-control" placeholder="Пароль" aria-label="Пароль"
                 aria-describedby="basic-addon1">
         </div>
-        <div class="my-3">
-            <a class="btn btn-warning btn-block" href="#" role="button">Вход</a>
-            <button type="button" class="btn btn-warning btn-block" id="client">Клиент</button>
-        </div>
-    </div>
-    <div class="account_content-sotr" align="center">
-        <h3>Вход в личный кабинет</h3>
-        <div class="input-group mb-3">
-            <div class="custom-file">
-                <input type="file" class="custom-file-input" id="inputGroupFile02">
-                <label class="custom-file-label" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02">
-                    ЭЦП-ключ
-                </label>
-            </div>
+        <div class="input-group my-3">
+            <input type="text" class="form-control" placeholder="Номер телефона" aria-label="Номер телефона"
+                aria-describedby="basic-addon1">
         </div>
         <div class="my-3">
-            <a class="btn btn-warning btn-block" href="#" role="button">Вход</a>
-            <button type="button" class="btn btn-warning btn-block" id="sotr">Сотрудник</button>
+            <a class="btn btn-warning btn-block" href="#" role="button">Регистрация</a>
         </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $(".account_content-sotr").hide();
-            $("#client").click(function () {
-                $(".account_content-client").hide();
-                $(".account_content-sotr").show();
-            });
-            $("#sotr").click(function () {
-                $(".account_content-sotr").hide();
-                $(".account_content-client").show();
-            });
-        });
-    </script>
 </body>
 
 </html>
