@@ -118,3 +118,11 @@ nav .input-group {
 .blog_write .btn{
     box-shadow: 0 1px 1px 0 #d1d5d6;
 }
+
+#stat a span{
+    color:black;
+}
+
+#stat a span:hover{
+    color: black;
+}
