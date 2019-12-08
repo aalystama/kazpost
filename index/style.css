@@ -5,6 +5,11 @@
 header .text-uppercase {
     font-family: "Roboto";
     font-size: 28px;
+    color: black;
+}
+
+header a:hover{
+    text-decoration: none;
 }
 
 .navbar {
@@ -108,4 +113,8 @@ nav .input-group {
     font-size: 15px;
     margin-top: 10px;
     display: inline-block;
+}
+
+.blog_write .btn{
+    box-shadow: 0 1px 1px 0 #d1d5d6;
 }
