@@ -1,0 +1,12 @@
+header .text-uppercase {
+    font-family: "Roboto";
+    font-size: 28px;
+}
+
+.navbar {
+    background: #F2F3F9;
+}
+
+nav .input-group{
+    max-width: 250px;
+}
