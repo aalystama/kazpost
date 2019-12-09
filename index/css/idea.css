@@ -1,0 +1,128 @@
+* {
+    font-family: "Roboto";
+}
+
+header .text-uppercase {
+    font-family: "Roboto";
+    font-size: 28px;
+    color: black;
+}
+
+header a:hover{
+    text-decoration: none;
+}
+
+.navbar {
+    background: #F2F3F9;
+}
+
+nav .input-group {
+    max-width: 250px;
+}
+
+.d-inline-flex {
+    max-width: 1000px;
+}
+
+.blog_banner {
+    height: 400px;
+    margin-bottom: 20px;
+    background: rgb(0, 67, 196);
+}
+
+.blog_banner-content {
+    position: relative;
+    max-width: 1024px;
+    width: auto;
+    overflow: auto;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+.blog_banner-text {
+    line-height: 1.2;
+    max-width: 450px;
+    font-size: 16px;
+    word-spacing: normal;
+    margin-top: 100px;
+    z-index: 2;
+    overflow: hidden;
+    position: relative;
+    color: white;
+}
+
+.blog_banner-description {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.blog_post-block {
+    border-radius: 4px;
+    padding: 20px 40px;
+    margin: 12px 0;
+    background: #F2F3F9;
+    box-shadow: 0 1px 1px 0 #d1d5d6;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #273844;
+    position: relative;
+}
+
+.container {
+    max-width: 1024px;
+}
+
+.post_author-image {
+    height: 38px;
+}
+
+.post_author-name {
+    font-size: 24;
+}
+
+.blog_post-title {
+    font-size: 29px;
+    line-height: 1.3;
+    letter-spacing: -.028em;
+    font-weight: 700;
+    margin: 20px 0 10px;
+    display: block;
+    color:
+        #273844;
+}
+
+.post__info {
+    color: #99a3ab;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.blog__post-exerpt {
+    font-size: 18px;
+    line-height: 1.58;
+    letter-spacing: -.003em;
+    max-width: 760px;
+    color: #555;
+}
+
+.blog__post-more {
+    color: #99a3ab;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.blog_write .btn{
+    box-shadow: 0 1px 1px 0 #d1d5d6;
+}
+
+#stat a span{
+    color:black;
+}
+
+#stat a span:hover{
+    color: black;
+}

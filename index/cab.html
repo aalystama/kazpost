@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="css/rating.css">
+    <title>CABINET</title>
+</head>
+
+<body>
+    <div class="container-fluid px-sm-0">
+        <header>
+            <div class="d-flex p-2 align-self-center justify-content-center">
+                <a href="index.html">
+                    <img src="img/logo_blue.svg" height="40px">
+                    <span class="text-uppercase font-weight-bold font-italic">kazpost</span>
+                </a>
+            </div>
+        </header>
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div id="my-nav" class="d-flex justify-content-center collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="idea.html">Идеи</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Рейтинг</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="auth.html">Войти</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Поиск" aria-label="Поиск"
+                                aria-describedby="button-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-secondary" type="button"
+                                    id="button-addon2">Найти</button>
+                            </div>
+                        </div>
+                    </li>
+                    <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <nav class="navbar rounded-bottom navbar-expand-md navbar-light my-md-5">
+            <div id="my-nav" class="d-flex justify-content-center collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item pr-sm-3">
+                        <button type="button button-block" class="btn btn-warning" id="btn1">Мои идеи</button>
+                    </li>
+                    <li class="nav-item pr-sm-3">
+                        <button type="button button-block" class="btn btn-warning" id="btn2">Мои данные</button>
+                    </li>
+                    <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="card" style="width: 100%;">
+                <div class="card-body">
+                    <div class="d-flex flex-row">
+                        <h1 class="card-title "><img class="pr-sm-3" src="img/navbarIcon2.svg">Тимур Ким</h1>
+                        <div class="align-self-center ml-auto">
+                            <h3>Администратор</h3>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center flex-row">
+                        <div class="d-flex flex-column">
+                            <div class="card-header">
+                                Пользователь
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Ф.И.О: Ким Тимур Вадимович</li>
+                                    <li class="list-group-item">Email: email@gmail.com</li>
+                                    <li class="list-group-item">Пароль: *********</li>
+                                    <li class="list-group-item">Место жительство: не указано</li>
+                                </ul>
+                            </div>
+                            <button type="button button-block" class="btn btn-warning">Изменить</button>
+                        </div>
+                        <div class="d-flex flex-column ml-sm-5">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-header">
+                                    Статистика
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Страниц с идеями посещено: 25</li>
+                                    <li class="list-group-item">Лайков на чужие идеи: 52</li>
+                                    <li class="list-group-item">Комментариев на чужие идеи: 32</li>
+                                    <li class="list-group-item">Лайков на своих идеях: 123</li>
+                                    <li class="list-group-item">Комментариев на своих идеях: 54</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

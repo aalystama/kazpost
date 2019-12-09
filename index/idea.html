@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="css/idea.css">
+    <title>KAZPOST</title>
+</head>
+
+<body>
+    <div class="container-fluid px-sm-0">
+        <header>
+            <div class="d-flex p-2 align-self-center justify-content-center">
+                <a href="index.html">
+                    <img src="img/logo_blue.svg" height="40px">
+                    <span class="text-uppercase font-weight-bold font-italic">kazpost</span>
+                </a>
+            </div>
+        </header>
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div id="my-nav" class="d-flex justify-content-center collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="idea.html">Идеи</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="rating.html">Рейтинг</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="auth.html">Войти</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Поиск" aria-label="Поиск"
+                                aria-describedby="button-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-secondary" type="button"
+                                    id="button-addon2">Найти</button>
+                            </div>
+                        </div>
+                    </li>
+                    <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <nav class="navbar rounded-bottom navbar-expand-md navbar-light my-md-5">
+            <div id="my-nav" class="d-flex justify-content-center collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item pr-sm-3">
+                        <button type="button" class="btn btn-warning" id="btn1">Оптимизация процессов</button>
+                    </li>
+                    <li class="nav-item pr-sm-3">
+                        <button type="button" class="btn btn-warning" id="btn2">Новый продукт</button>
+                    </li>
+                    <li class="nav-item pr-sm-3">
+                        <button type="button" class="btn btn-warning" id="btn3">Почтовые услуги</button>
+                    </li>
+                    <li class="nav-item pr-sm-3">
+                        <button type="button" class="btn btn-warning" id="btn4">Финансовые и агентские услуги</button>
+                    </li>
+                    <li class="nav-item pr-sm-3">
+                        <button type="button" class="btn btn-warning" id="btn5">IT-решения</button>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-warning" id="btn6">Прочие категория</button>
+                    </li>
+                    <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </ul>
+            </div>
+        </nav>
+        <div class="blog_page" id="bp1">
+            <div class="container-fluid mt-md-2">
+                <h1 align="center">Оптимизация процессов</h1>
+            </div>
+            <div class="row mx-sm-1 my-md-2">
+                <div class="container-fluid">
+                    <a class="btn btn-primary btn-lg btn-block" href="write.html" role="button">Написать идею</a>
+                </div>
+            </div>
+            <div class="blog_posts">
+                <div class="blog_post-block">
+                    <div class="post_author">
+                        <a class="post_author-image" href="#">
+                            <img class="post_author-image" src="img/navbarIcon2.svg">
+                        </a>
+                        <a class="post_author-name" href="#">Владислав Огай<br><small>Сотрудник</small></a>
+                    </div>
+                    <a class="blog_post-title" href="#">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.
+                    </a>
+                    <div class="post__info" itemprop="datePublished" content="2019-12-05 16:10:47">
+                        5 декабря, 2019 · 79 просмотров
+                    </div>
+                    <div class="blog_post-exerpt">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...
+                    </div>
+                    <div class="d-flex flex-row">
+                        <div>
+                            <a href="#" class="blog__post-more">
+                                Читать далее...
+                            </a>
+                        </div>
+                        <div class="ml-auto px-3" id="stat">
+                            <a href="#">
+                                <span>61</span>
+                                <img src="img/like.svg">
+                            </a>
+                            <a href="#">
+                                <span>74</span>
+                                <img src="img/comment.svg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog_post-block">
+                    <div class="post_author">
+                        <a class="post_author-image" href="#">
+                            <img class="post_author-image" src="img/navbarIcon2.svg">
+                        </a>
+                        <a class="post_author-name" href="#">Чингиз Алимкул<br><small>Клиент</small></a>
+                    </div>
+                    <a class="blog_post-title" href="#">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.
+                    </a>
+                    <div class="post__info" itemprop="datePublished" content="2019-12-05 16:10:47">
+                        5 декабря, 2019 · 79 просмотров
+                    </div>
+                    <div class="blog_post-exerpt">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...
+                    </div>
+                    <div class="d-flex flex-row">
+                        <div>
+                            <a href="#" class="blog__post-more">
+                                Читать далее...
+                            </a>
+                        </div>
+                        <div class="ml-auto px-3" id="stat">
+                            <a href="#">
+                                <span>61</span>
+                                <img src="img/like.svg">
+                            </a>
+                            <a href="#">
+                                <span>74</span>
+                                <img src="img/comment.svg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blog_page" id="bp2">
+            <div class="container-fluid mt-md-2">
+                <h1 align="center">Новые продукты</h1>
+            </div>
+            <div class="row mx-sm-1 my-md-2">
+                <div class="container-fluid">
+                    <a class="btn btn-primary btn-lg btn-block" href="write.html" role="button">Написать идею</a>
+                </div>
+            </div>
+            <div class="blog_posts">
+                <div class="blog_post-block">
+                    <div class="post_author">
+                        <a class="post_author-image" href="#">
+                            <img class="post_author-image" src="img/navbarIcon2.svg">
+                        </a>
+                        <a class="post_author-name" href="#">Владислав Огай<br><small>Сотрудник</small></a>
+                    </div>
+                    <a class="blog_post-title" href="#">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.
+                    </a>
+                    <div class="post__info" itemprop="datePublished" content="2019-12-05 16:10:47">
+                        5 декабря, 2019 · 79 просмотров
+                    </div>
+                    <div class="blog_post-exerpt">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...
+                    </div>
+                    <div class="d-flex flex-row">
+                        <div>
+                            <a href="#" class="blog__post-more">
+                                Читать далее...
+                            </a>
+                        </div>
+                        <div class="ml-auto px-3" id="stat">
+                            <a href="#">
+                                <span>61</span>
+                                <img src="img/like.svg">
+                            </a>
+                            <a href="#">
+                                <span>74</span>
+                                <img src="img/comment.svg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog_post-block">
+                    <div class="post_author">
+                        <a class="post_author-image" href="#">
+                            <img class="post_author-image" src="img/navbarIcon2.svg">
+                        </a>
+                        <a class="post_author-name" href="#">Чингиз Алимул<br><small>Клиент</small></a>
+                    </div>
+                    <a class="blog_post-title" href="#">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.
+                    </a>
+                    <div class="post__info" itemprop="datePublished" content="2019-12-05 16:10:47">
+                        5 декабря, 2019 · 79 просмотров
+                    </div>
+                    <div class="blog_post-exerpt">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...
+                    </div>
+                    <div class="d-flex flex-row">
+                        <div>
+                            <a href="#" class="blog__post-more">
+                                Читать далее...
+                            </a>
+                        </div>
+                        <div class="ml-auto px-3" id="stat">
+                            <a href="#">
+                                <span>61</span>
+                                <img src="img/like.svg">
+                            </a>
+                            <a href="#">
+                                <span>74</span>
+                                <img src="img/comment.svg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blog_page" id="bp3">
+            <div class="container-fluid mt-md-2">
+                <h1 align="center">Почтовые услуги</h1>
+            </div>
+            <div class="row mx-sm-1 my-md-2">
+                <div class="container-fluid">
+                    <a class="btn btn-primary btn-lg btn-block" href="write.html" role="button">Написать идею</a>
+                </div>
+            </div>
+            <div class="blog_posts">
+                <div class="blog_post-block">
+                    <div class="post_author">
+                        <a class="post_author-image" href="#">
+                            <img class="post_author-image" src="img/navbarIcon2.svg">
+                        </a>
+                        <a class="post_author-name" href="#">Владислав Огай<br><small>Сотрудник</small></a>
+                    </div>
+                    <a class="blog_post-title" href="#">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.
+                    </a>
+                    <div class="post__info" itemprop="datePublished" content="2019-12-05 16:10:47">
+                        5 декабря, 2019 · 79 просмотров
+                    </div>
+                    <div class="blog_post-exerpt">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...
+                    </div>
+                    <div class="d-flex flex-row">
+                        <div>
+                            <a href="#" class="blog__post-more">
+                                Читать далее...
+                            </a>
+                        </div>
+                        <div class="ml-auto px-3" id="stat">
+                            <a href="#">
+                                <span>61</span>
+                                <img src="img/like.svg">
+                            </a>
+                            <a href="#">
+                                <span>74</span>
+                                <img src="img/comment.svg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog_post-block">
+                    <div class="post_author">
+                        <a class="post_author-image" href="#">
+                            <img class="post_author-image" src="img/navbarIcon2.svg">
+                        </a>
+                        <a class="post_author-name" href="#">Чингиз Алимкул<br><small>Клиент</small></a>
+                    </div>
+                    <a class="blog_post-title" href="#">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.
+                    </a>
+                    <div class="post__info" itemprop="datePublished" content="2019-12-05 16:10:47">
+                        5 декабря, 2019 · 79 просмотров
+                    </div>
+                    <div class="blog_post-exerpt">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...
+                    </div>
+                    <div class="d-flex flex-row">
+                        <div>
+                            <a href="#" class="blog__post-more">
+                                Читать далее...
+                            </a>
+                        </div>
+                        <div class="ml-auto px-3" id="stat">
+                            <a href="#">
+                                <span>61</span>
+                                <img src="img/like.svg">
+                            </a>
+                            <a href="#">
+                                <span>74</span>
+                                <img src="img/comment.svg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blog_page" id="bp4">
+            <div class="container-fluid mt-md-2">
+                <h1 align="center">Финансовые и агентские услуги</h1>
+            </div>
+            <div class="row mx-sm-1 my-md-2">
+                <div class="container-fluid">
+                    <a class="btn btn-primary btn-lg btn-block" href="write.html" role="button">Написать идею</a>
+                </div>
+            </div>
+            <div class="blog_posts">
+                <div class="blog_post-block">
+                    <div class="post_author">
+                        <a class="post_author-image" href="#">
+                            <img class="post_author-image" src="img/navbarIcon2.svg">
+                        </a>
+                        <a class="post_author-name" href="#">Владислав Огай<br><small>Сотрудник</small></a>
+                    </div>
+                    <a class="blog_post-title" href="#">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.
+                    </a>
+                    <div class="post__info" itemprop="datePublished" content="2019-12-05 16:10:47">
+                        5 декабря, 2019 · 79 просмотров
+                    </div>
+                    <div class="blog_post-exerpt">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...
+                    </div>
+                    <div class="d-flex flex-row">
+                        <div>
+                            <a href="#" class="blog__post-more">
+                                Читать далее...
+                            </a>
+                        </div>
+                        <div class="ml-auto px-3" id="stat">
+                            <a href="#">
+                                <span>61</span>
+                                <img src="img/like.svg">
+                            </a>
+                            <a href="#">
+                                <span>74</span>
+                                <img src="img/comment.svg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog_post-block">
+                    <div class="post_author">
+                        <a class="post_author-image" href="#">
+                            <img class="post_author-image" src="img/navbarIcon2.svg">
+                        </a>
+                        <a class="post_author-name" href="#">Чингиз Алимкул<br><small>Клиент</small></a>
+                    </div>
+                    <a class="blog_post-title" href="#">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.
+                    </a>
+                    <div class="post__info" itemprop="datePublished" content="2019-12-05 16:10:47">
+                        5 декабря, 2019 · 79 просмотров
+                    </div>
+                    <div class="blog_post-exerpt">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...
+                    </div>
+                    <div class="d-flex flex-row">
+                        <div>
+                            <a href="#" class="blog__post-more">
+                                Читать далее...
+                            </a>
+                        </div>
+                        <div class="ml-auto px-3" id="stat">
+                            <a href="#">
+                                <span>61</span>
+                                <img src="img/like.svg">
+                            </a>
+                            <a href="#">
+                                <span>74</span>
+                                <img src="img/comment.svg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blog_page" id="bp5">
+            <div class="container-fluid mt-md-2">
+                <h1 align="center">IT-решения</h1>
+            </div>
+            <div class="row mx-sm-1 my-md-2">
+                <div class="container-fluid">
+                    <a class="btn btn-primary btn-lg btn-block" href="write.html" role="button">Написать идею</a>
+                </div>
+            </div>
+            <div class="blog_posts">
+                <div class="blog_post-block">
+                    <div class="post_author">
+                        <a class="post_author-image" href="#">
+                            <img class="post_author-image" src="img/navbarIcon2.svg">
+                        </a>
+                        <a class="post_author-name" href="#">Владислав Огай<br><small>Сотрудник</small></a>
+                    </div>
+                    <a class="blog_post-title" href="#">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.
+                    </a>
+                    <div class="post__info" itemprop="datePublished" content="2019-12-05 16:10:47">
+                        5 декабря, 2019 · 79 просмотров
+                    </div>
+                    <div class="blog_post-exerpt">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...
+                    </div>
+                    <div class="d-flex flex-row">
+                        <div>
+                            <a href="#" class="blog__post-more">
+                                Читать далее...
+                            </a>
+                        </div>
+                        <div class="ml-auto px-3" id="stat">
+                            <a href="#">
+                                <span>61</span>
+                                <img src="img/like.svg">
+                            </a>
+                            <a href="#">
+                                <span>74</span>
+                                <img src="img/comment.svg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog_post-block">
+                    <div class="post_author">
+                        <a class="post_author-image" href="#">
+                            <img class="post_author-image" src="img/navbarIcon2.svg">
+                        </a>
+                        <a class="post_author-name" href="#">Чингиз Алимкул<br><small>Клиент</small></a>
+                    </div>
+                    <a class="blog_post-title" href="#">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.
+                    </a>
+                    <div class="post__info" itemprop="datePublished" content="2019-12-05 16:10:47">
+                        5 декабря, 2019 · 79 просмотров
+                    </div>
+                    <div class="blog_post-exerpt">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...
+                    </div>
+                    <div class="d-flex flex-row">
+                        <div>
+                            <a href="#" class="blog__post-more">
+                                Читать далее...
+                            </a>
+                        </div>
+                        <div class="ml-auto px-3" id="stat">
+                            <a href="#">
+                                <span>61</span>
+                                <img src="img/like.svg">
+                            </a>
+                            <a href="#">
+                                <span>74</span>
+                                <img src="img/comment.svg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blog_page" id="bp6">
+            <div class="container-fluid mt-md-2">
+                <h1 align="center">Прочие категории</h1>
+            </div>
+            <div class="row mx-sm-1 my-md-2">
+                <div class="container-fluid">
+                    <a class="btn btn-primary btn-lg btn-block" href="write.html" role="button">Написать идею</a>
+                </div>
+            </div>
+            <div class="blog_posts">
+                <div class="blog_post-block">
+                    <div class="post_author">
+                        <a class="post_author-image" href="#">
+                            <img class="post_author-image" src="img/navbarIcon2.svg">
+                        </a>
+                        <a class="post_author-name" href="#">Владислав Огай<br><small>Сотрудник</small></a>
+                    </div>
+                    <a class="blog_post-title" href="#">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.
+                    </a>
+                    <div class="post__info" itemprop="datePublished" content="2019-12-05 16:10:47">
+                        5 декабря, 2019 · 79 просмотров
+                    </div>
+                    <div class="blog_post-exerpt">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...
+                    </div>
+                    <div class="d-flex flex-row">
+                        <div>
+                            <a href="#" class="blog__post-more">
+                                Читать далее...
+                            </a>
+                        </div>
+                        <div class="ml-auto px-3" id="stat">
+                            <a href="#">
+                                <span>61</span>
+                                <img src="img/like.svg">
+                            </a>
+                            <a href="#">
+                                <span>74</span>
+                                <img src="img/comment.svg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog_post-block">
+                    <div class="post_author">
+                        <a class="post_author-image" href="#">
+                            <img class="post_author-image" src="img/navbarIcon2.svg">
+                        </a>
+                        <a class="post_author-name" href="#">Чингиз Алимкул<br><small>Клиент</small></a>
+                    </div>
+                    <a class="blog_post-title" href="#">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.
+                    </a>
+                    <div class="post__info" itemprop="datePublished" content="2019-12-05 16:10:47">
+                        5 декабря, 2019 · 79 просмотров
+                    </div>
+                    <div class="blog_post-exerpt">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...
+                    </div>
+                    <div class="d-flex flex-row">
+                        <div>
+                            <a href="#" class="blog__post-more">
+                                Читать далее...
+                            </a>
+                        </div>
+                        <div class="ml-auto px-3" id="stat">
+                            <a href="#">
+                                <span>61</span>
+                                <img src="img/like.svg">
+                            </a>
+                            <a href="#">
+                                <span>74</span>
+                                <img src="img/comment.svg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#bp1").show();
+            $("#bp2").hide();
+            $("#bp3").hide();
+            $("#bp4").hide();
+            $("#bp5").hide();
+            $("#bp6").hide();
+            $("#btn1").click(function () {
+                $("#bp1").show();
+                $("#bp2").hide();
+                $("#bp3").hide();
+                $("#bp4").hide();
+                $("#bp5").hide();
+                $("#bp6").hide();
+            });
+            $("#btn2").click(function () {
+                $("#bp1").hide();
+                $("#bp2").show();
+                $("#bp3").hide();
+                $("#bp4").hide();
+                $("#bp5").hide();
+                $("#bp6").hide();
+            });
+            $("#btn3").click(function () {
+                $("#bp1").hide();
+                $("#bp2").hide();
+                $("#bp3").show();
+                $("#bp4").hide();
+                $("#bp5").hide();
+                $("#bp6").hide();
+            });
+            $("#btn4").click(function () {
+                $("#bp1").hide();
+                $("#bp2").hide();
+                $("#bp3").hide();
+                $("#bp4").show();
+                $("#bp5").hide();
+                $("#bp6").hide();
+            });
+            $("#btn5").click(function () {
+                $("#bp1").hide();
+                $("#bp2").hide();
+                $("#bp3").hide();
+                $("#bp4").hide();
+                $("#bp5").show();
+                $("#bp6").hide();
+            });
+            $("#btn6").click(function () {
+                $("#bp1").hide();
+                $("#bp2").hide();
+                $("#bp3").hide();
+                $("#bp4").hide();
+                $("#bp5").hide();
+                $("#bp6").show();
+            });
+        });
+    </script>
+</body>
+
+</html>

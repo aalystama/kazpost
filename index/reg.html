@@ -28,7 +28,10 @@
                         <a class="nav-link" href="index.html">Главная</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Рейтинг</a>
+                        <a class="nav-link " href="idea.html">Идеи</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="rating.html">Рейтинг</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="auth.html">Войти</a>
@@ -51,14 +54,18 @@
             </div>
         </nav>
     </div>
-    <div class="account_content" align="center">
-        <h3>Регистрация</h3>
+    <div class="account_content-client" align="center">
+        <h3>Регистрация клиента</h3>
         <div class="input-group my-3">
             <input type="text" class="form-control" placeholder="Email" aria-label="Email"
                 aria-describedby="basic-addon1">
         </div>
         <div class="input-group my-3">
-            <input type="text" class="form-control" placeholder="Пароль" aria-label="Пароль"
+            <input type="text" class="form-control" placeholder="Пароль" aria-label="password"
+                aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group my-3">
+            <input type="text" class="form-control" placeholder="Ф.И.О." aria-label="fio"
                 aria-describedby="basic-addon1">
         </div>
         <div class="input-group my-3">
@@ -66,14 +73,57 @@
                 aria-describedby="basic-addon1">
         </div>
         <div class="my-3">
-            <button type="button" class="btn btn-warning btn-block">Регистрация</button>
+            <button type="button" class="btn btn-warning btn-block">Зарегистрировать</button>
+            <button type="button" class="btn btn-warning btn-block" id="client">Сотрудник</button>
             <a class="btn btn-warning btn-block" href="auth.html" role="button">Войти в существующий аккаунт</a>
+        </div>
+    </div>
+    <div class="account_content-sotr" align="center">
+        <h3>Регистрация сотрудника</h3>
+        <div class="input-group my-3">
+            <input type="text" class="form-control" placeholder="Корпоративный Email" aria-label="Email"
+                aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group my-3">
+            <input type="text" class="form-control" placeholder="Пароль" aria-label="password"
+                aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group my-3">
+            <input type="text" class="form-control" placeholder="Ф.И.О." aria-label="fio"
+                aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group mb-3">
+            <div class="custom-file">
+                <input type="file" class="custom-file-input" id="inputGroupFile02">
+                <label class="custom-file-label" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02">
+                    ЭЦП-ключ
+                </label>
+            </div>
+        </div>
+        <div class="my-3">
+            <button type="button" class="btn btn-warning btn-block">Зарегистрировать</button>
+            <a class="btn btn-warning btn-block" href="auth.html" role="button">Войти в существующий аккаунт</a>
+            <button type="button" class="btn btn-warning btn-block" id="sotr">Клиент</button>
+            
         </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".account_content-sotr").hide();
+            $("#client").click(function () {
+                $(".account_content-client").hide();
+                $(".account_content-sotr").show();
+            });
+            $("#sotr").click(function () {
+                $(".account_content-sotr").hide();
+                $(".account_content-client").show();
+            });
+        });
+    </script>
 </body>
 
 </html>
